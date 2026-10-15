@@ -1,1 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap');
+body {
+    background-color: #ffecd7;
+    font-family: Arial, sans-serif;
+}
+
+.prophet-card {
+    background-color: #008db1;
+    border: 6px solid #004e63;
+    border-radius: 35px;
+    color: white;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 30px;
+    text-align: center;
+}
+
+.card-header h1 {
+    font-size: 42px;
+    margin: 10px 0;
+}
+
+.card-header p {
+    color: #91e4fb;
+    font-size: 20px;
+}
+
+.prophet-image {
+    width: 80%;
+    border: 5px solid white;
+    margin: 20px 0;
+}
+
+.prophet-details {
+    display: inline-block;
+    text-align: left;
+    font-size: 22px;
+    line-height: 1.6;
+}
+
+.card-footer {
+    color: #ffd783;
+    font-family: cursive;
+    font-size: 20px;
+}
