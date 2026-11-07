@@ -218,3 +218,22 @@ a:hover {
         gap: 20px;
     }
 }
+.portal-buttons {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    width: 220px;
+    margin: 50px auto;
+}
+.portal-button {
+    padding: 15px;
+    background-color: #0642a5;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 18px;
+}
+.portal-button:hover {
+    background-color: #082d70;
+}
